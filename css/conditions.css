@@ -1,0 +1,14 @@
+.dell-hero-owl-nav {
+    margin-top: 0;
+}
+
+h2.text-white {
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 40px !important;
+    color: #FFFFFF;
+}
+
+section.dell-hero.blue2-gradient {
+    background: linear-gradient(90deg, #3A8FAA 0%, #BCEAF8 100% !important);
+}

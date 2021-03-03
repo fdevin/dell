@@ -1,0 +1,23 @@
+section.dell-hero.all-companies.over-view-14 {
+  background: linear-gradient(90deg, #3A8FAA 0%, #BCEAF8 100%) !important;
+}
+
+.over-view-14 div#heading-2 {
+  border-top: none;
+}
+
+.over-view-14 div#heading-1 {
+  border-top: 1px solid #798685;
+}
+.over-view-14 div#tab-1 {
+  border-bottom: 1px solid #798685;;
+}
+
+h2.tab-title-over-view {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #152827;
+  padding: 80px 0 60px 0;
+}

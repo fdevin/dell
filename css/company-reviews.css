@@ -1,0 +1,154 @@
+section.dell-hero.comapny-reviews {
+  background: url("../img/image9.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.container.comapny-reviews-title {
+  padding-left: 10%;
+  max-width: 750px!important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.comapny-reviews-title h2 {
+  padding-bottom: 20px;
+}
+
+.comapny-reviews-title select {
+  border-radius: 12px;
+  border: none;
+}
+
+.view-more-btn {
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 20px;
+  border-bottom: 1px solid #E3E8E7;
+}
+
+.view-more-btn a.dell-btn {
+  border: solid 1px;
+}
+
+.selector-company select {
+  background: #F1F4F4;
+  border: none;
+  border-radius: 12px;
+  max-width: 50%;
+  margin-bottom: 30px;
+}
+
+.reviews-main-title {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.compare-content .row .col-3 {
+  border-right: solid 1px #E3E8E7;
+}
+
+.cell-border-bottom {
+  border-bottom: solid 1px #E3E8E7;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.cell-border-top {
+  border-top: solid 1px #E3E8E7;
+}
+
+.compare-content .row .col-3:nth-child(4) {
+  border-right: none;
+}
+
+.compare-content .row.title-row .col-3:first-child,
+.compare-content .row.title-row .col-3:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.compare-content .row.title-row .col-3:first-child p {
+  color: #D0AF71;
+}
+
+.compare-content .row .col-3:first-child div {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.close-btn-col {
+  text-align: right;
+}
+
+.logo-img-col, .learn-btn-col {
+  text-align: center;
+}
+
+.learn-btn-col {
+  padding: 10px 0;
+}
+
+.logo-img-col .logo-unum {
+  margin-top: 30px;
+}
+
+.row.title-row {
+  border-bottom: solid 1px #E3E8E7;
+}
+
+.row.title-row select {
+  font-size: 15px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+div.number-cols {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  justify-content: center;
+}
+
+div.number-reviews-cols {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7edb;
+  text-align: center;
+  justify-content: center;
+}
+
+.rating-img-cols.cell-border-bottom {
+  text-align: center;
+  justify-content: center;
+}
+
+.rating-img-cols-recent,
+.most-recent-review {
+  padding-top: 28px;
+}
+
+p.recent-title {
+  color: #2D7EDB;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p.recent-author {
+  font-size: 12px;
+  line-height: 16px;
+  color: #415857;
+}
+
+p.recent-desc {
+  font-size: 12px;
+  line-height: 20px;
+  color: #152827;
+}
+
+.padding-top-25 {
+  padding-top: 25px;
+}

@@ -1,0 +1,120 @@
+section.dell-hero.comapny-name {
+  background: linear-gradient(90deg, #7DC2BF 0%, #ECF2FD 100%) !important;
+}
+
+.rating-review-title {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.serchbox-container {
+  padding-right: 45px;
+}
+
+.serchbox-container form {
+  margin: 0 !important;
+}
+
+.serchbox-container .dell-search-form .form-control {
+  border-radius: 12px 0 0 12px !important;
+}
+
+.serchbox-container button.btn {
+  background: #D0AF71;
+  height: 40px;
+  border-radius: 0 12px 12px 0;
+}
+
+.recent-box-container, .rating-box-container {
+  padding-left: 50px;
+}
+
+.recent-box-container p, .rating-box-container p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.search-select-container select {
+  background: #F1F4F4;
+  border: none;
+  border-radius: 12px;
+}
+
+.row.search-select-container {
+  padding-top: 28px;
+  padding-bottom: 30px;
+  border-top: 1px solid #E3E8E7;
+  margin-top: 30px;
+}
+
+p.show-results {
+  font-size: 16px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #E3E8E7;
+  margin-bottom: 30px;
+}
+
+.feedback-description::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 85%;
+  background: #e6e6e6;
+}
+
+.feedback-description {
+  padding-right: 5%;
+}
+
+.item-review-img {
+  padding-left: 50px;
+}
+
+.item-review-img img {
+  vertical-align: baseline;
+}
+
+.searched-company-item {
+  border-bottom: 1px solid #E3E8E7;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.searched-company-item.border-bottom-gray{
+  border-bottom: solid 1px #798685;
+  margin-bottom: 18px;
+}
+
+.general-lawyers-community.company-review-info {
+  margin-top: 20px;
+}
+
+.pagination.company-reviews-page p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.pagination.company-reviews-page {
+  justify-content: space-between;
+}
+
+.pagination.company-reviews-page .active {
+  color: #152827;
+}
+.mobile-view {
+  display: none;
+}
+
+section.review-top-sec.desktop-view .searched-company-item {
+  border-top: 1px solid #E3E8E7;
+  padding-top: 30px;
+  margin-top: 80px;
+}
+
+.row.dell-review-data .col-lg-3.dell-review-data-col-4 {
+  border-left: 1px solid #E6E6E6;
+}

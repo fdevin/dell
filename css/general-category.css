@@ -1,0 +1,75 @@
+.row.dell-hero-owl-row .dell-hero-owl-col-1 a.dell-btn.dell-btn-primary {
+  margin-top: 20px;
+}
+
+section.dell-hero.general-category {
+  background: linear-gradient(360deg, #FFFFFF 5.95%, rgba(255, 255, 255, 0) 100%),url("../img/community.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p.question-quiz {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2D7EDB;
+}
+ 
+.qustions-body small {
+  color: #415857;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+ }
+
+ .qustions-body img.quiz-avatar {
+   max-width: 100px;
+ }
+
+ h2.answer-title {
+   color: #2D7EDB;
+ }
+
+ .review-helpful.dell-related li:after {
+   content: none;
+ }
+
+ .margin-top-30 {
+   margin-top: 30px !important;
+ }
+
+ .general-lawyers-community {
+   margin-top: 100px;
+ }
+
+ div#answer-questions-lawyer,
+ div.general-company-review,
+ div.general-help-videos,
+ div.general-claim-videos {
+  border: none;
+  padding: 20px 0;
+}
+
+.question-mark {
+  vertical-align: bottom;
+}
+
+div#answer-questions-lawyer-content form {
+  margin: 0 0 30px 0 !important;
+  width: 50%;
+}
+
+ul.dell-list-img.dell-list-answer.general-page-list li.list-lawyers {
+  border-bottom: none;
+  border-top: solid 1px #E3E8E7;
+  padding-top: 30px;
+}
+
+.ask-more-container {
+  padding: 60px;
+  text-align: center;
+}
+
+.answer-questions-lawyer.card {
+  border-bottom: 1px solid #798685 !important;
+}

@@ -1,0 +1,636 @@
+.mobile-view {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+  }
+  .row.dell-hero-owl-row,
+  .mobile-col-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid #E3E8E7;
+    margin: 0 16px;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {
+    display: block;
+    width: 100%;
+    top: 70px;
+  }
+
+  div#tabbar-1 button.btn.dropbtn {
+    display: flex;
+    justify-content: space-between;
+  }
+  div#tabbar-1 {
+    border: none;
+    background: #356F6C !important;
+  }
+  .dell-accordion div#tabbar-1.card-header h2 .btn strong {
+    color: #FFF;
+    font-size: 15px;
+  }
+  .dell-accordion .card-header h2 .btn.dropbtn.show-tab .dell-accordion-arrow, .dell-accordion .card-header h2 .dell-btn[aria-expanded="false"] .dell-accordion-arrow {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  button#tab-btn img.dell-accordion-arrow {
+    margin-top: 10px;
+  }
+  div#myDropdown span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .col-lg-5.dell-hero-owl-col-1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .dell-accordion .card-header h2 .btn strong,
+  .dell-accordion .card-header h2 .btn span {
+    font-size: 14px;
+  }
+  .dell-accordion .card-header h2 .btn .dell-accordion-icon {
+    width: 20px;
+  }
+  .dell-accordion .card-header h2 .btn .dell-accordion-arrow {
+    width: 12px;
+  }
+  .dell-accordion .card-header h2 .btn {
+    text-align: left !important;
+  }
+  .dell-accordion .card-header {
+    padding: 13px 16px !important;
+  }
+  h2.rating-review-title {
+    font-size: 18px;
+    padding: 30px 0;
+    line-height: 28px;
+  }
+  .dell-list-img-col-2 h5,
+  .dell-list-img-col-2 p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .dell-list-img-col-2 h3 {
+    font-size: 16px;
+  }
+  .dell-list-img-col-2 small {
+    font-size: 12px;
+  }
+  .dell-related li a {
+    font-size: 12px;
+  }
+  .carousel-inner .item.active {
+    display: block;
+  }
+  .carousel-inner .item {
+    display: none;
+  }
+  
+  .carousel-inner {
+    margin-bottom: 24px;
+  }
+  a.left.carousel-control {
+    margin-right: 16px;
+  }
+
+  a.right.carousel-control {
+    margin-left: 16px;
+  }
+
+  .mobile-view button.btn.view-all-reviews {
+    width: 90%;
+    background: #D0AF71;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+
+  .dis-claim-mobile .dell-player,
+  .dis-claim-mobile .dell-player img {
+    border-radius: 0;
+  }
+  .help-claimants.dell-accordion,
+  .about-hiring.dell-accordion {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    padding-top: 36px;
+  }
+
+  .mobile-view .help-claimants.dell-accordion h4,
+  .mobile-view .about-hiring.dell-accordion h4 {
+    font-size: 18px !important;
+  }
+
+  .mobile-view .help-claimants.dell-accordion h2 button.btn strong,
+  .mobile-view .about-hiring.dell-accordion h2 button.btn strong,
+  .dell-review-data-col-4 h4 {
+    font-size: 14px;
+  }
+
+  .mobile-view .dell-accordion .card-header {
+    padding: 13px 0;
+  }
+
+  .mobile-view .dell-accordion .card-header h2 .btn {
+    text-align: left !important;
+  }
+
+  .mobile-view .request-container {
+    padding: 0;
+    margin-top: 50px;
+  }
+  section.request-section.mobile-view {
+    padding-bottom: 0;
+  }
+  
+  .feedback-description {
+    padding-left: 5%;
+  }
+  .dell-list-img-col-2 small img {
+    margin-left: 0 !important;
+  }
+  .most-recent-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 16px;
+    border-bottom: solid 1px #E3E8E7;
+  }
+  .most-recent-mobile p {
+    font-size: 14px;
+  }
+  .serchbox-container {
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 30px;
+  }
+  span.info-rate-top h3 small {
+    font-size: 13px;
+  }
+  span.info-rate-top h3 span {
+    font-size: 16px;
+  }
+  span.info-rate-top a {
+    font-size: 14px;
+  }
+  span.info-rate-top h2 {
+    font-size: 24px;
+    display: flex;
+  }
+  .row.logo-info {
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  span.info-rate-top {
+    text-align: left;
+  }
+
+  span.info-rate-top .dell-review {
+    padding-top: 5px;
+  }
+  
+  section.dell-hero.company-name.mobile-view,
+  section.dell-hero.company-category.mobile-view,
+  section.dell-hero.general-category.mobile-view,
+  section.dell-hero.company-reviews.mobile-view,
+  section.dell-hero.all-companies.mobile-view,
+  section.dell-hero.green-gradient.mobile-view,
+  section.dell-hero.blue-gradient.mobile-view,
+  section.dell-hero.blue2-gradient.mobile-view,
+  section.dell-hero.yellow-gradient.mobile-view {
+    padding-top: 0 !important;
+    padding-bottom: 70px !important;
+  }
+  .dell-player, .dell-player>img {
+    border-radius: 0 !important;
+  }
+  
+  .col-lg-5.dell-hero-owl-col-1 a,
+  .col-lg-5.dell-hero-owl-col-1 h2 {
+    margin-left: 16px;
+  }
+
+  .dell-hero-owl-nav {
+    position: absolute !important;
+    bottom: -50px;
+    margin-left: 30%;
+  }
+
+  section.dell-hero.company-reviews.mobile-view {
+    background: linear-gradient(180deg, #F8E8BC 0%, #F6BF2D 100%) !important;
+  }
+
+  .company-reviews-title h2 {
+    padding: 30px 16px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .company-reviews-title select,
+  select.form-control.all-company-list {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  section.breadcrumb-menu img {
+    width: 15px;
+    vertical-align: bottom;
+  }
+
+  section.breadcrumb-menu span, section.breadcrumb-menu span a {
+    font-size: 8px;
+  }
+
+  h2.reviews-main-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  } 
+
+  .selector-company select {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  p.show-results,
+  .dell-helpful .btn span {
+    font-size: 14px !important;
+  }
+
+  .view-more-btn a.dell-btn {
+    background: #D0AF71;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    width: 100%;
+  }
+  div.number-reviews-cols,
+  div.number-cols {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .top-text {
+    font-size: 10px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .compare-content p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #D0AF71;
+  }
+  .bottom-border {
+    border-bottom: solid 1px #E3E8E7;
+    padding-top: 10px;
+  }
+  
+  .cell-border-bottom, .cell-border-top {
+    border: none;
+    height: 50px;
+    text-align: left !important;
+    justify-content: left !important;
+  }
+
+  div.number-cols, div.number-reviews-cols {
+    text-align: left;
+    justify-content: left;
+  }
+
+  .compare-content .row .col-6:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+
+  .compare-content .row.title-row .col-6:nth-child(2) {
+    display: block;
+  }
+
+  h2.hero-all-comp-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .tab-content select#select-1,
+  form.dell-search-form.help-full-vidoes {
+    max-width: 100%;
+  }
+  
+  .mobile-collapse {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tab-pane .card-header {
+    background: #F1F4F4 !important;
+    border: none !important;
+  }
+  
+  .tab-content p {
+    font-size: 14px !important;
+  }
+
+  .tab-pane input.form-control {
+    border-radius: 12px 0 0 12px !important;
+  }
+
+  .tab-pane form button.btn {
+    height: 40px !important;
+    background: #d0af71 !important;
+    border-radius: 0 12px 12px 0;
+  }
+
+  .mobile-answer {
+    display: flex !important;
+  }
+
+  .mobile-answer h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D7EDB;
+  }
+
+  .ask-more-container {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .ask-more-container a {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-view.question-general .question-quiz {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D0AF71;
+  }
+
+  .mobile-view.question-general h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D0AF71;
+  }
+
+  .mobile-view.question-general h2.answer-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #152827;
+  }
+
+  .ava-ans {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .ava-ans img {
+    margin-right: 10px;
+  }
+
+  h2.mutual-claim-help-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #0F2E2C;
+  }
+
+  h2.gen-title-mo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #152827;
+  }
+
+  a.gen-btn-mo {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 16px !important;
+    margin: 0 !important;
+  }
+
+  section.dell-hero.general-category.mobile-view {
+    background: linear-gradient(180deg, #FFFFFF 0%, #ECE9E6 100%);
+  }
+
+  .gen-btn-mo-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .mobile-view div#answer-questions-lawyer-content form {
+    width: 100%;
+  }
+
+  .answer-mobile-item {
+    display: flex;
+  }
+
+  .dell-list-answer .dell-list-img-col-2 .answer-mobile-item h3 {
+    margin: 0 !important;
+    margin-left: 10px !important;
+  }
+  
+  section.dell-lawyers-main-form h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  section.dell-lawyers-main-form p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .email-require {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #152827;
+  }
+
+  section.dell-lawyers-main-form button.dell-btn.dell-btn-primary {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  div#search-panel {
+    display: none;
+  }
+
+  .dell-laywers-community-col-2 h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .row.dell-lawyers-community-row .ask-more-container {
+    margin-top: 30px;
+  }
+
+  span.filer-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #356F6C;
+  }
+
+  img#filter_icon {
+    margin-left: 18px;
+    margin-right: 5px;
+  }
+
+  .search-panel-mobile h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  div#search-panel.search-panel-mobile {
+    position: absolute;
+    z-index: 99;
+    top: 555px;
+  }
+
+  .filter-close-btn {
+    text-align: right;
+  }
+
+  .filter-close-btn button {
+    border: none;
+    background: transparent      ;
+  }
+  .pt-20 {
+    padding-top: 20px;
+  }
+
+  .review-from-clients.mobile-view .owl-carousel .dell-hero-owl-row img {
+    display: inline !important;
+    width: 72px !important;
+  }
+
+  .mobile-view .row.dell-hero-owl-row,
+  .mobile-view .row.dell-hero-row {
+    margin: 0 !important;
+  }
+  .mobile-view .col-lg-5.dell-hero-owl-col-2,
+  .mobile-view .col-12.dell-hero-col {
+    padding: 0;
+  }
+  .mobile-view .col-12.dell-hero-col {
+    padding: 0;
+    /* width: 100%; */
+  }
+  section.dell-hero.all-companies.over-view-15 {
+    background: linear-gradient(180deg, #FBFAF9 0%, #C6CED0 100%) !important;
+  }
+
+  section.dell-hero.all-companies.over-view-14 {
+    background: linear-gradient(180deg, #BCEAF8 0%, #3A8FAA 100%) !important;
+  }
+
+  .over-view-15 h2.hero-all-comp-title {
+    color: #152827;
+  }
+
+  h2.mobile-over-view-15,
+  h2.mobile-over-view-14 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #152827;
+  }
+  div#item-sub-1 .card-body {
+    padding: 0;
+  }
+
+  section.dell-hero.blue-gradient.mobile-view .dell-hero-owl-col-1 h2,
+  section.dell-disability.py-5 h2.dell-title,
+  section.dell-steps-tips.mobile-view h2.dell-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #152827;
+  }
+
+  section.dell-hero.blue-gradient.mobile-view a.dell-btn.dell-btn-primary {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0 !important;
+    width: 100%;
+  }
+  .row.dell-review-data .col-lg-3.dell-review-data-col-4 {
+    padding-top: 20px;
+  }
+  a.dell-btn.dell-btn-primary.padding-lr,
+  a.dell-btn.dell-btn-outline-black.white-line-color.padding-lr {
+    padding: 10px 20px !important;
+  }
+  a.dell-btn.dell-btn-outline-black.white-line-color.padding-lr {
+    color: #FFF !important;
+    border: solid 1px #FFF !important;
+    margin-top: 20px;
+  }
+  section.dell-hero.blue2-gradient.mobile-view {
+    background: linear-gradient(180deg, #EDFAFC 0%, #41B7C2 68.79%);
+  }
+
+  section.dell-steps-tips.mt-5.pt-md-5 h2.dell-title.col-lg-8.col-md-9.text-center,
+  section.dell-steps-tips.mt-5.pt-md-5 h2.dell-title.col-lg-7.col-md-9.text-center {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #152827;
+  }
+}

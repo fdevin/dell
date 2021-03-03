@@ -1,0 +1,92 @@
+section.dell-hero.all-companies {
+  background: linear-gradient(90deg, #D0AF71 0%, #F8E3BC 100%) !important;
+}
+
+h2.hero-all-comp-title {
+  color: #FFF;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+select#select-1.all-company-list {
+  max-width: 416px;
+  border-radius: 12px;
+}
+
+img.dell-accordion-icon {
+  vertical-align: bottom;
+}
+
+div#heading-1,
+div#heading-2,
+div#heading-3,
+div#heading-4 {
+  border: none;
+}
+
+div#heading-2,
+div#heading-3,
+div#heading-4 {
+  border-top: 1px solid #798685;
+}
+
+form.dell-search-form.help-full-vidoes {
+  margin-top: 0;
+  margin-bottom: 20px !important;
+  max-width: 50%;
+}
+
+form.dell-search-form.help-full-vidoes button.btn {
+  height: 40px;
+  background-color: var(--secondary-color);
+  border-radius: 0px 12px 12px 0px;
+}
+
+form.dell-search-form.help-full-vidoes input.form-control {
+  border-radius: 12px 0px 0px 12px !important;
+}
+
+.tab-content p {
+  font-size: 16px !important;
+}
+
+.tab-content select#select-1 {
+  max-width: 50%;
+  border-radius: 12px;
+  background: #F1F4F4;
+  margin-bottom: 30px;
+}
+
+.answer-item, 
+.company-item {
+  border-top: 1px solid #E3E8E7;
+  padding-top: 30px;
+}
+
+.video-item {
+  padding-bottom: 10px;
+}
+
+.review-from-clients.all-company-page {
+  margin-top: 0;
+}
+
+.view-more-btn {
+  text-align: center;
+  margin: 50px;
+}
+
+.tab-pane form.dell-search-form button.btn {
+  height: 40px;
+  background: #D0AF71;
+  border-radius: 0 12px 12px 0;
+  padding: 0;
+}
+
+.tab-pane form.dell-search-form {
+  max-width: 500px;
+}
+
+.tab-pane form.dell-search-form .form-control {
+  border-radius: 12px !important;
+}

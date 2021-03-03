@@ -1,0 +1,16 @@
+.dell-hero-owl-nav {
+  margin-top: 0;
+}
+
+h2.text-white {
+  font-weight: 600;
+  font-size: 28px !important;
+  line-height: 40px !important;
+  color: #FFFFFF;
+}
+
+a.dell-btn.dell-btn-outline-white {
+  border: solid 1px #FFF;
+  color: #FFF;
+  margin-left: 30px;
+}

@@ -1,0 +1,269 @@
+h2 {
+    color: var(--text);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.dell-lawyers-main-form {
+    background: linear-gradient(90deg, #DABD88 0%, #FEECC9 100%);
+    text-align: center;
+    padding: 49px 0 30px 0;
+}
+
+.dell-lawyers-main-form button {
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+section.breadcrumb-menu {
+    padding: 27px 0;
+}
+
+section.breadcrumb-menu img {
+    width: 22px;
+}
+
+section.breadcrumb-menu span,
+section.breadcrumb-menu span a {
+    font-size: 13px;
+    color: var(--primary-color);
+    vertical-align: bottom;
+}
+
+section.dell-lawyers-community {
+    padding-top: 15px;
+}
+
+.dell-laywers-community-col-2 form.dell-search-form .form-control {
+    background: #F1F4F4;
+    border-radius: 12px 0px 0px 12px !important;
+}
+
+.dell-laywers-community-col-2 form.dell-search-form button {
+    height: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 0px 12px 12px 0px;
+}
+
+ul.dell-list-img.dell-list-answer li.list-lawyers {
+    border-bottom: solid 1px #E3E8E7;
+}
+
+.dell-laywers-community-col-2 .pagination {
+    padding-top: 18px;
+    justify-content: space-between;
+}
+
+.dell-laywers-community-col-2 .current-page p {
+    font-size: 16px;
+}
+
+.dell-laywers-community-col-2 .page-nums .active {
+    color: #000;
+}
+
+.page-nums a {
+    margin-right: 10px;
+}
+
+div#search-panel {
+    background: #F1F4F4;
+    border-radius: 8px;
+    padding-top: 27px;
+    padding-bottom: 40px;
+}
+
+div#search-panel h4 {
+    letter-spacing: -1px;
+}
+
+div#search-panel .answered-questions.was-validated .form-control:valid {
+    border: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
+}
+
+div#search-panel .answered-questions.was-validated input.form-control {
+    background-color: #E3E8E7;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+div#search-panel .answered-questions.was-validated button {
+    border: none;
+    background: transparent;
+    color: #EB5757;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+form.was-validated.answered-questions {
+    border-bottom: 1px solid #798685;
+    margin-bottom: 35px;
+}
+
+.search-section.dell-accordion {
+    padding-top: 30px;
+}
+
+.search-header.card-header h2 button strong {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px !important;
+}
+
+.search-header.card-header {
+    padding: 0;
+    border: none;
+    background: transparent !important;
+}
+
+.search-header.card-header button {
+    padding: 0;
+}
+
+.search-header.card-header button img {
+    width: 15px;
+    margin-top: 10px;
+}
+
+.search-section .card-body {
+    padding: 0 10px;
+}
+
+.search-section .card-body form.dell-search-form {
+    margin: 10px 0 !important;
+    background: #FFF;
+    border-radius: 12px;
+}
+
+.search-section .card-body input.form-control {
+    background-color: #FFF !important;
+    border-radius: 12px !important;
+    font-size: 14px;
+}
+
+.checkbox-search {
+    border-bottom: 1px solid #E3E8E7;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+span.check-num {
+    color: #798685;
+}
+
+button.more-btn {
+    border: none;
+    background: transparent;
+    color: #2D7EDB;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.other {
+    padding-top: 30px;
+}
+
+section.review-from-clients {
+    background: #F1F4F4;
+    margin: 140px 0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.row.carousel-row {
+    padding: 55px 0;
+}
+
+.prev-btn-container,
+.next-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.prev-btn-container button,
+.next-btn-container button {
+    background: transparent;
+}
+
+button.btn.view-all-reviews {
+    border: solid 1px;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.col.logos-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #e3e8e7;
+    padding-top: 50px;
+}
+
+.request-container {
+    padding-right: 50px;
+}
+
+.help-claimants.dell-accordion {
+    padding-top: 18px;
+}
+
+.help-claimants.dell-accordion h2 button.btn strong,
+.about-hiring.dell-accordion h2 button.btn strong {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.help-claimants.dell-accordion h2 button.btn img {
+    width: 24px;
+}
+
+.help-claimants.dell-accordion h2 button.btn img.dell-accordion-arrow,
+.about-hiring.dell-accordion h2 button.btn img.dell-accordion-arrow {
+    width: 15px;
+    padding-top: 7px;
+}
+
+.protect-benefits div#protect-benefits,
+.disability-option div#disability-option,
+.other-claims div#other-claims,
+.hiring-1 div#hiring-1,
+.hiring-2 div#hiring-2,
+.hiring-3 div#hiring-3,
+.hiring-4 div#hiring-4,
+.hiring-5 div#hiring-5,
+.hiring-6 div#hiring-6 {
+    border: none;
+    border-top: 1px solid #E3E8E7;
+}
+
+.other-claims div#other-claims {
+    border-bottom: 1px solid #798685;
+}
+
+.about-hiring.dell-accordion {
+    padding-top: 32px;
+}
+
+section.request-section {
+    padding-bottom: 100px;
+}
